@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class Maze : MonoBehaviour
+public class Maze
 {
     int GRID_WIDTH;
     int GRID_HEIGHT;
@@ -18,13 +18,17 @@ public class Maze : MonoBehaviour
     private int separate_components;
     private int tmp;
 
-    public Maze()
+    public Maze(int width, int height)
     {
-        this.GRID_WIDTH = 3;
-        this.GRID_HEIGHT = 3;
+        this.GRID_WIDTH = width;
+        this.GRID_HEIGHT = height;
         this.TRIES_MAX = 2;
         InitializeMaze();
     }
+
+	public GridPosition[,] GetGrid() {
+		return grid;
+	}
 
     public void InitializeMaze()
     {
@@ -178,17 +182,5 @@ public class Maze : MonoBehaviour
             this.y = y;
         }
     }
-
-
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    
 }

@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio for Mac
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeQuest", "Assembly-CSharp.csproj", "{E20DFFB7-13D8-19C1-DF06-BD71610D0A90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeQuest", "Assembly-CSharp-firstpass.csproj", "{32A00F01-E7B2-0711-B9A5-83587B879F12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeQuest", "Assembly-CSharp-Editor-firstpass.csproj", "{F18F4F83-C1EA-7A57-8883-C5BF2F3075F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +17,14 @@ Global
 		{E20DFFB7-13D8-19C1-DF06-BD71610D0A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E20DFFB7-13D8-19C1-DF06-BD71610D0A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E20DFFB7-13D8-19C1-DF06-BD71610D0A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32A00F01-E7B2-0711-B9A5-83587B879F12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32A00F01-E7B2-0711-B9A5-83587B879F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32A00F01-E7B2-0711-B9A5-83587B879F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32A00F01-E7B2-0711-B9A5-83587B879F12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F18F4F83-C1EA-7A57-8883-C5BF2F3075F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F18F4F83-C1EA-7A57-8883-C5BF2F3075F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F18F4F83-C1EA-7A57-8883-C5BF2F3075F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F18F4F83-C1EA-7A57-8883-C5BF2F3075F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

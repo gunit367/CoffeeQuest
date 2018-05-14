@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GridPosition : MonoBehaviour
+public class GridPosition
 {
-    const int UP = 0;
-    const int RIGHT = 1;
-    const int DOWN = 2;
-    const int LEFT = 3;
+    public const int UP = 0;
+    public const int RIGHT = 1;
+    public const int DOWN = 2;
+    public const int LEFT = 3;
 
     public int x;
     public int y;
@@ -32,6 +32,10 @@ public class GridPosition : MonoBehaviour
         }
         this.group = group;
     }
+
+	public int[] GetWalls() {
+		return walls;
+	}
 
     int Opposite(int dir)
     {
@@ -99,16 +103,5 @@ public class GridPosition : MonoBehaviour
             }
         }
     }
-
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    
 }
