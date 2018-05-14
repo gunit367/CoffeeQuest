@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio for Mac
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeQuest", "Assembly-CSharp-firstpass.csproj", "{32A00F01-E7B2-0711-B9A5-83587B879F12}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeQuest", "Assembly-CSharp.csproj", "{E20DFFB7-13D8-19C1-DF06-BD71610D0A90}"

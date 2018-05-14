@@ -56,6 +56,7 @@ MonoBehaviour:
   MAZE_WIDTH: 10
   wall: {fileID: 1451007271481736, guid: 018121db0c31540ef8e500e20989a493, type: 2}
   ground: {fileID: 1495844117016828, guid: 84df6366731e141ebbc91790a65e59e6, type: 2}
+  scale: 2
 --- !u!114 &114545034177670590
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -68,3 +69,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mazeGenerator: {fileID: 114204797672106366}
+  player: {fileID: 1189692872326586, guid: 38ce4e1fd923e4f22961efa3aca574e4, type: 2}
